@@ -1,0 +1,8 @@
+file = open("Hello.txt","w")
+file.write("My Name is Adarsh Mishra \n ")
+file.write("My Admission number is 21SCSE1011370 \n ")
+file.write("My Section = 17 \n")
+file.write("Stream = Computer Science and Engineering")
+file = open("Hello.txt","r")
+print(file.readlines(10))
+file.close()

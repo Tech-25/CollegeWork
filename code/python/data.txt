@@ -1,0 +1,13 @@
+Dictionary_01={}
+Dictionary_01={"student1":"adarsh","student2":"abhinav","student3":"shashikant","student4":"amit"}
+print("ALL ITEMS ARE = ")
+for k in Dictionary_01.items():
+    print(k)
+print("ALL KEYS ARE = ")
+for k in Dictionary_01.keys():
+    print(k)    
+print("ALL VALUES ARE = ")
+for k in Dictionary_01.values():
+    print(k)
+    
+    

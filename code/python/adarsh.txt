@@ -1,0 +1,5 @@
+file = open("adarsh.txt","w")
+file.write("hello python")
+file = open("adarsh.txt","r")
+print(file.read(5))
+file.close()
